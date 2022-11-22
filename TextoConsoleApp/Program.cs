@@ -14,7 +14,7 @@ foreach (var item in lines)
 
 	if (num1 == Convert.ToInt32(split[0]) && num2 == Convert.ToInt32(split[1]))
 	{
-		Console.WriteLine(item);
+		Console.WriteLine("Usuário - " + item);
 		return;
 	}
 }
